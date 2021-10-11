@@ -35,7 +35,7 @@ nav .logo {
     display: flex;
     align-items: center;
     font-size: 24px;
-    color: white;
+    color: rgb(42, 221, 206);
 
 }
 
@@ -59,7 +59,7 @@ nav .links li a {
     padding: 1em;
     font-size: 16px;
     font-weight: bold;
-    color: white;
+    color: rgb(37, 218, 187);
     text-decoration: none;
 }
 
@@ -80,10 +80,10 @@ nav .icon-burger {
 nav .icon-burger .line {
     width: 30px;
     height:5px;
-    background-color: white;
+    background-color: rgb(117, 86, 86);
     margin: 5px;
     border-radius: 3px;
-    transition: all .3s ease-in-out;
+    transition: all .3s linear;
 }
 @media screen and (max-width: 768px) {
     nav .logo {
@@ -105,7 +105,7 @@ nav .icon-burger .line {
         bottom: 100%;
         background-color: rgba(0,0,0,0.8);
         overflow:hidden;
-        transition: all .5s ease-in-out;
+        transition: all .5s linear;
     }
     nav .links a {
         font-size: 20px;
@@ -132,9 +132,27 @@ nav .icon-burger .line {
         display: block;
         width: 100%;
     }
-    
+
+   
 }
 
+ .image2{
+        display: none;
+     }
+     
+     @media only screen and (max-width: 768px){           .image1{
+          display: none;
+        }
+     
+        .image2{
+          display: block;
+        }
+     }
+
+
+
+
+     
 pre {
   white-space: pre-wrap;
   word-wrap: break-word;

@@ -1,7 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Papyrusr&display=swap');
 
 * {
-    font-family: 'Indie Flower', cursive;
+    font-family: 'Papyrus', cursive;
 }
 
 nav {
@@ -11,14 +11,14 @@ nav {
     right:0;
     top: 0;
     height: 100px;
-    background-color: rgba(184, 23, 176, 0.9);
+    background-color: rgba(51, 8, 133);
 }
 
 pre {
-    background-color:rgba(151, 151, 151, 0.692) !important;
+    background-color:rgba(55, 7, 146, 0.692) !important;
     border-radius: 5px;
     border: 2px solid black;
 }
 footer {
-    background-color:rgb(207, 9, 214);
+    background-color:rgb(51, 8, 133);
 }
