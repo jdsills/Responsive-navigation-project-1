@@ -1,7 +1,3 @@
-# Responsive Navigation Menus
+This is my yellowstone park webpage
 
-This is my attempt at creating a responsive navigation menu.
-
-I used parts of the example project to help build this.
-
-
+a map that can be used is on https://www.nps.gov/maps/tools/npmap.js/examples/plugins/index.html perhaps try to use as an api
